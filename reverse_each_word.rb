@@ -12,7 +12,6 @@ require 'pry'
   
 # end
 
-#require 'pry'
 def reverse_each_word(sentence_as_a_string)
   sentence_as_an_array = sentence_as_a_string.split(" ")
   #array_of_reversed_words = []
@@ -22,5 +21,5 @@ def reverse_each_word(sentence_as_a_string)
     
    end
 #   #binding.pry
-   array_of_reversed_words.join(" ")
+   sentence_as_an_array.join(" ")
  end
